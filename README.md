@@ -2,15 +2,6 @@
 
 AppScan is a full-stack grant application review project. The backend is a Spring Boot API that accepts research grant applications, enriches them with an AI-generated summary, calculates a rule-based score, stores records in H2, and exposes endpoints for a frontend dashboard and submission flow.
 
-## Project Status
-
-The backend source is present in this repository and runnable.
-
-The frontend is referenced by the backend configuration and CORS setup, but no frontend source files are currently checked into this workspace. There is an empty `frontend/` directory, so this README documents:
-- the working backend
-- the intended frontend integration points
-- the expected local full-stack setup
-
 ## Repository Structure
 
 ```text
